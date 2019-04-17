@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">PatternFramework</string>
+    <string name="logintoolbarname">登录到系统</string>
+    <string name="logintoolbartitle">登录到系统</string>
+    <string name="inputyourpassword">请输入你的密码</string>
+    <string name="accountpassword">账号密码:</string>
+    <string name="colon">:</string>
+    <string name="inputyouraccount">请输入你的账号</string>
+    <string name="Manger">管理员</string>
+    <string name="Student">学生</string>
+    <string name="Login">登录</string>
+    <string name="IsUnremember">忘记密码？</string>
+    <string name="Isrememberpassword">记住密码</string>
+    <string name="ourcdu">WE LOVE CDU</string>
+    <string name="accountpasswordagain">确认输入:</string>
+    <string name="setting">设置</string>
+    <string name="test">我的信息</string>
+    <string name="email">dragonaccastlewind@gmail.com</string>
+    <string name="preference">偏好</string>
+
+</resources>

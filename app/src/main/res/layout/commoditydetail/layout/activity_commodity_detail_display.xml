@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cons"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8E8E7">
+        <include layout="@layout/commodity_toolbar"/>
+            <android.support.v4.view.ViewPager
+                android:layout_marginTop="8dp"
+                android:id="@+id/cd_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        <!--如果在这个child View前面的任何其他Child View没有设置这个值，那么这个Child View的设置将失去作用。-->
+        <!--<TextView-->
+            <!--android:text="这是最后一条信息"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+</LinearLayout>

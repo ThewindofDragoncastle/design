@@ -1,0 +1,6 @@
+悬浮窗数据：new_fab_top位置，new_fab_bottom位置,new_fab_left位置，new_fab_right位置
+文件名称：fab
+搜索记录1：cm_record_1 搜索记录2：cm_record_2 搜索记录3：cm_record_3
+文件名称：cm_record
+是否记录密码：isRemember     密码：password   账号：account
+文件名称：user_record

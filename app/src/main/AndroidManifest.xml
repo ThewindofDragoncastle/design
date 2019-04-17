@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dragon.patternframework">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".startuse.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login.activity.MainPage">
+        </activity>
+        <activity
+            android:name=".commodity.activity.MainActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".commodity.activity.SettingActivity" />
+        <activity android:name=".commoditydetail.activity.CommodityDetailDisplay"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".commoditydetail.activity.CommentDetailActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".commoditydetail.activity.PostNeedOrDeleteActivity" />
+        <activity
+            android:name=".function.activity.FunctionMainActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".function.activity.ReviseInfoActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dragon.patternframework.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files_paths" />
+        </provider>
+
+        <service
+            android:name=".service.UploadIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name=".service.ServiceReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.uiwidgettest.FORWARDMUSIC" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".person.activity.InfoActivity" />
+        <activity android:name=".function.activity.CommodityReviseActivity" />
+
+    </application>
+
+</manifest>

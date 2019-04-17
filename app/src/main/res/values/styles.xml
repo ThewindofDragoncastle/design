@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="MyHoloBluestyleforHint">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="MyHoloBluestyleforError">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:text">你的位数超过限制</item>
+    </style>
+</resources>

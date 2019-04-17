@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/preference">
+    <ListPreference
+        android:key="custom_setting_theme"
+        android:entries="@array/ColorSelect"
+        android:entryValues="@array/Color"
+        android:defaultValue="#FF6347"
+        android:title="选择主题" />
+</PreferenceCategory>
+</PreferenceScreen>

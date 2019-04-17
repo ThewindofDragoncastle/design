@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="urgent_sale_notification">急售:</string>
+    <string name="kaishu">楷书</string>
+    <string name="yurang">20000毫安的充电宝出售了!\n商品id：9527。\n质量杠杆的！</string>
+    <string name="help">1、这款开发这款软件的目的是什么？\n\u3000答：一、为了毕业设计。\n\u3000二、挑战自己。
+        \n\n2、这款软件的组成如何？\n\u3000答：此APP分为服务器端和客户端，服务器端将使用Kotlin代码进行Socket（上传图片）
+        以及webservice开发接口。客户端使用java和kotlin混合开发，其中kotlin占主体。\n
+        \n3、你对h5和原生开发对比看法？\n\u3000答：我对原生开发持有积极的态度，对h5保持欢迎。\n\n
+        4、为什么选择Android？\n\u3000答：源于兴趣。</string>
+    <string-array name="urgent_sale_test_array">
+        <item>急需转手一本Android开发书籍《第一行代码》，仅售50元，九成新！！！</item>
+        <item>联通10M宽带仅售20元，出售1个月，大四最近不在学校</item>
+        <item>联想小新v1000 5成新，2500带走，附送鼠标一枚。</item>
+        <item>诚意满满，求收养一只宠物，金毛，12个月大，真心对它好，面议。</item>
+        <item>玩具鹿，玩具鹿，玩具鹿。重要的事情说三遍。</item>
+    </string-array>
+    <string name="test2">\u3000谁出售一本大学物理下学期的书籍，我弄丢了。。\n感谢感谢！请留下商品id！</string>
+    <string name="about">如今，Android操作系统占有的智能手机市场极大比例。与此同时，伴随当代大学生的消费能力日益增长，很多同学购买的许多物品由于用处不太大或者很少使用而被闲置，部分物品甚至被随意的丢弃，而出现资源浪费。但是另一部分同学来说，这些物品仍具有一定的使用价值，购买全新的不划算，却又找不到相应的交易渠道。因此本文所开发app应用就是给这些同学们提供一个平台，处理对自己利用率不高的闲置物品，让同学们可以通过一个安全规范的平台来出售或购买闲置物品。 本文介绍了一个基于Android的闲置交易平台，该平台由登录注册、商品查询、订单操作、商家模块、个人信息、其他模块五个部分组成。该系统使用JAVA语言、kotlin语言和MySQL数据库在Android Studio开发平台下予以实现，经过测试后程序能在Android环境下正常运行，用户交互感良好，操作简洁方便。</string>
+</resources>

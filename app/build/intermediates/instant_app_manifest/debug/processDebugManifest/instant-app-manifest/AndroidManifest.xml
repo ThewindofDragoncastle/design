@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dragon.patternframework"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.dragon.patternframework.startuse.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dragon.patternframework.login.activity.MainPage" >
+        </activity>
+        <activity
+            android:name="com.dragon.patternframework.commodity.activity.MainActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.dragon.patternframework.commodity.activity.SettingActivity" />
+        <activity
+            android:name="com.dragon.patternframework.commoditydetail.activity.CommodityDetailDisplay"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.dragon.patternframework.commoditydetail.activity.CommentDetailActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name="com.dragon.patternframework.commoditydetail.activity.PostNeedOrDeleteActivity" />
+        <activity
+            android:name="com.dragon.patternframework.function.activity.FunctionMainActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="com.dragon.patternframework.function.activity.ReviseInfoActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.dragon.patternframework.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/files_paths" />
+        </provider>
+
+        <service
+            android:name="com.dragon.patternframework.service.UploadIntentService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.dragon.patternframework.service.ServiceReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.uiwidgettest.FORWARDMUSIC" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.dragon.patternframework.person.activity.InfoActivity" />
+        <activity android:name="com.dragon.patternframework.function.activity.CommodityReviseActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

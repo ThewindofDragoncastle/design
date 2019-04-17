@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.dragon.patternframework.function.activity.ReviseInfoActivity">
+
+    <TextView
+        android:id="@+id/revise_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:text="资料修改"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/revise_dialog_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/blue_press_state"
+        android:text="保存"
+        android:textColor="@color/mywhite"
+        app:layout_constraintBottom_toBottomOf="@+id/revise_dialog_cancel"
+        app:layout_constraintEnd_toStartOf="@+id/revise_dialog_cancel"
+        app:layout_constraintTop_toTopOf="@+id/revise_dialog_cancel" />
+
+    <Button
+        android:id="@+id/revise_dialog_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/green_press_state"
+        android:text="取消"
+        android:textColor="@color/mywhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/revise_protrait" />
+
+    <ImageView
+        android:id="@+id/revise_protrait"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/revise_dialog_title"
+        app:srcCompat="@drawable/noload" />
+</android.support.constraint.ConstraintLayout>

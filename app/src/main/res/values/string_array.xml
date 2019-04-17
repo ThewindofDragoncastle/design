@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ColorSelect">
+        <item>酸橙绿</item>
+        <item>紫罗兰</item>
+        <item>活力橙</item>
+        <item>钴色</item>
+        <item>镉色</item>
+        <item>灰色</item>
+        <item>默认</item>
+    </string-array>
+    <string-array name="Color">
+        <item>#32CD32</item>
+        <item>#8A2BE2</item>
+        <item>#E3170D</item>
+        <item>#3D59AB</item>
+        <item>#FF6103</item>
+        <item>#808A87</item>
+        <item name="default">#FF6347</item>
+    </string-array>
+    <string-array name="testTrading">
+        <item>自备零钞，当面交易，接受支付宝，不接受微信。</item>
+        <item>交易时间：本周（2月1日至2月7日），交易地点：新空间广场。需要提前商量，交易之前请call me。</item>
+        <item>确认无误后，概不退货。出现纠纷，本人不负有任何责任。</item>
+        <item>诚信交易，谢谢合作！</item>
+    </string-array>
+    <string-array name="need_contact">
+        <item>订单号</item>
+        <item>商品名称</item>
+        <item>需求方</item>
+        <item>供应方</item>
+        <item>订单生成时间</item>
+        <item>约定时间</item>
+        <item>约定地点</item>
+        <item>备注</item>
+    </string-array>
+    <string-array name="personSaleTab">
+        <item>上新</item>
+        <item>下架</item>
+        <item>信息修改</item>
+    </string-array>
+    <string-array name="personBuyTab">
+        <item>商品搜索</item>
+        <item>成为商家</item>
+        <item>商品置顶</item>
+    </string-array>
+    <string-array name="personTab">
+        <item>商家消息</item>
+        <item>系统消息</item>
+        <item>用户信息完善</item>
+        <item>已完成订单</item>
+        <item>未完成订单</item>
+        <item>我的评论</item>
+        <item>系统管理</item>
+        <item>帮助</item>
+        <item>意见反馈</item>
+        <item>关于本产品</item>
+    </string-array>
+    <string-array name="fun_revise_item">
+        <!--与IdentifyInfo同步-->
+        <item>头像</item>
+        <!--如果为空代码则隐藏从而让代码更简洁-->
+        <item/>
+        <item>呢称</item>
+        <item>签名</item>
+        <item/>
+        <item>电话</item>
+        <item>QQ</item>
+        <item>邮箱</item>
+        <item/>
+        <item>地址</item>
+        <item>学院班级</item>
+        <item>真实姓名</item>
+    </string-array>
+    <string-array name="mutCheck">
+        <item>急售</item>
+        <item>最新上架</item>
+        <item>食品</item>
+        <item>数码产品</item>
+        <item>生活用品</item>
+        <item>魅力</item>
+        <item>实惠</item>
+        <item>校园宽带</item>
+        <item>大件物品</item>
+        <item>新奇好玩</item>
+    </string-array>
+</resources>
